@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>STREET88</title>
+</head>
+
+<body class="bg-black">
+    <nav class="bg-black font-sans h-[90px] flex items-center uppercase">
+        <div class="container  m-auto  text-[white]  flex justify-between items-center  ">
+            <button
+                class="uppercase w-[160px] h-[30px] text-[#4E9F0D] hover:bg-[#4E9F0D] hover:text-white text-[20px] rounded ">Street88
+            </button>
+            <ul class="hidden items-center text-[18px] sm:hidden md:hidden lg:flex ">
+                <li
+                    class="hover:bg-[#4E9F0D] text-[#4E9F0D] hover:text-white h-[90px] w-[117px] flex items-center  justify-center ">
+                    <a class="" href="#">Корзина</a>
+                </li>
+                <li
+                    class="hover:bg-[#4E9F0D] text-[#4E9F0D] hover:text-white h-[90px] w-[117px] flex items-center justify-center">
+                    <a href="#">Меню</a>
+                </li>
+                <li
+                    class="hover:bg-[#4E9F0D] text-[#4E9F0D] hover:text-white h-[90px] w-[117px] flex items-center justify-center">
+                    <a href="#"> О нас</a>
+                </li>
+                <li
+                    class="hover:bg-[#4E9F0D] text-[#4E9F0D] hover:text-white h-[90px] w-[117px] flex items-center justify-center">
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="hamburger flex flex-col gap-[5px] lg:hidden items-center mr-[30px] ">
+                <div class="bg-[#4E9F0D] w-8 h-1 "></div>
+                <div class="bg-[#4E9F0D] w-8 h-1 "></div>
+                <div class="bg-[#4E9F0D] w-8 h-1 "></div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="  lg:h-[768px] bg-cover bg-center  bg-[url('./image/knife.png')] flex sm:h-[500px] w-auto ">
+        <div class="container m-auto text-white text-start  ">
+            <p class="lg:text-[72px] lg:w-auto text-[42px] md:text-[52px] text-[#4E9F0D] uppercase font-bold font-black  ">Большой гамбургер</p>
+            <p class="lg:text-[36px] text-[24px] md:text-[30px] text-[#4E9F0D]">говядина</p>
+            <p class="lg:text-[18px] lg:w-[1169px] md:w-[500px] md:text-[14px] text-[12px] w-[350px] mt-[30px] ">Свежая хрустящая булочка, листики салата,
+                маринованный огурец с луком и небольшая котлета,
+                сдобренная майонезом и кетчупом, - таков классический портрет гамбургера, наиболее распространенной
+                «быстрой» еды в США, от отравления которой ежедневно на больничных койках оказываются десятки тысяч
+                американцев</p>
+            <button class="lg:w-[350px] lg:h-[100px]  lg:text-[60px] mt-[50px] w-[200px] h-[60px] text-[40px]  bg-[#4E9F0D] ">14 500</button>
+        </div>
+    </header>
+    <div class="container m-auto ">
+
+        <nav class="">
+            <ul class="lg:flex lg:justify-start  items-center lg:gap-[50px] lg:h-[120px] m-auto text-center md:flex md:gap-[30px] ">
+                <li class="hover:text-[#4E9F0D]  lg:h-[60px] text-[#7A7A7A] block text-center  ">Гамбургеры </li>
+                <li class="hover:text-[#4E9F0D]  lg:h-[60px] text-[#7A7A7A] block text-center ">Хот доги</li>
+                <li class="hover:text-[#4E9F0D]  lg:h-[60px] text-[#7A7A7A] block text-center ">Пицца</li>
+                <li class="hover:text-[#4E9F0D]  lg:h-[60px] text-[#7A7A7A]  block text-center">Напитки</li>
+                <li class="hover:text-[#4E9F0D]  lg:h-[60px] text-[#7A7A7A] block text-center ">Соки</li>
+            </ul>
+        </nav>
+    </div>
+    <div
+        class="container m-auto  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 max-w-100% min-h-[500px] bg-black-400 gap-[30px]">
+        <div>
+            <div class=" relative group ">
+                <img class="w-[100%] object-cover" src="./image/Без имени-1 2.png" alt="burger">
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-[#4E9F0D80] bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Добавить в корзину
+                </div>
+                <button class="absolute bg-[#4E9F0D] text-white bottom-px group-hover:hidden lg:w-[190px] lg:h-[60px] lg:text-[24px] md:w-[160px] md:h-[50px] w-[150px] h-[40px]  " >14 500</button>
+            </div>
+            <p class="text-[#4E9F0D] p-[10px] text-[24px] font-bold"> c говядиной</p>
+            <p class="text-white  w-[344px] h-[75px] p-[5px] ">Свежая хрустящая булочка, листики салата, маринованный
+                огурец
+                луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+        </div>
+
+        <div>
+            <div class=" relative group ">
+                <img class="w-[100%] object-cover" src="./image/Без имени-1 2.png" alt="burger">
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-[#4E9F0D80] bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Добавить в корзину
+                </div>
+                <button class="absolute bg-[#4E9F0D] text-white bottom-px group-hover:hidden lg:w-[190px] lg:h-[60px] lg:text-[24px] md:w-[160px] md:h-[50px] w-[150px] h-[40px]   " >14 500</button>
+            </div>
+            <p class="text-[#4E9F0D] p-[10px] text-[24px] font-bold"> c говядиной</p>
+            <p class="text-white  w-[344px] h-[75px] p-[5px] ">Свежая хрустящая булочка, листики салата, маринованный
+                огурец
+                луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+        </div>
+
+
+        <div>
+            <div class=" relative group ">
+                <img class="w-[100%] object-cover" src="./image/Без имени-1 2.png" alt="burger">
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-[#4E9F0D80] bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Добавить в корзину
+                </div>
+                <button class="absolute bg-[#4E9F0D] text-white bottom-px group-hover:hidden lg:w-[190px] lg:h-[60px] lg:text-[24px] md:w-[160px] md:h-[50px] w-[150px] h-[40px]   " >14 500</button>
+            </div>
+            <p class="text-[#4E9F0D] p-[10px] text-[24px] font-bold"> c говядиной</p>
+            <p class="text-white  w-[344px] h-[75px] p-[5px] ">Свежая хрустящая булочка, листики салата, маринованный
+                огурец
+                луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+        </div>
+
+
+
+        <div>
+            <div class=" relative group ">
+                <img class="w-[100%] object-cover" src="./image/Без имени-1 2.png" alt="burger">
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-[#4E9F0D80] bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Добавить в корзину
+                </div>
+                <button class="absolute bg-[#4E9F0D] text-white bottom-px group-hover:hidden lg:w-[190px] lg:h-[60px] lg:text-[24px] md:w-[160px] md:h-[50px] w-[150px] h-[40px]   " >14 500</button>
+            </div>
+            <p class="text-[#4E9F0D] p-[10px] text-[24px] font-bold"> c говядиной</p>
+            <p class="text-white  w-[344px] h-[75px] p-[5px] ">Свежая хрустящая булочка, листики салата, маринованный
+                огурец
+                луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+        </div>
+
+
+
+        <div>
+            <div class=" relative group ">
+                <img class="w-[100%] object-cover" src="./image/Без имени-1 2.png" alt="burger">
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-[#4E9F0D80] bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Добавить в корзину
+                </div>
+                <button class="absolute bg-[#4E9F0D] text-white bottom-px group-hover:hidden lg:w-[190px] lg:h-[60px] lg:text-[24px] md:w-[160px] md:h-[50px] w-[150px] h-[40px]   " >14 500</button>
+            </div>
+            <p class="text-[#4E9F0D] p-[10px] text-[24px] font-bold"> c говядиной</p>
+            <p class="text-white  w-[344px] h-[75px] p-[5px] ">Свежая хрустящая булочка, листики салата, маринованный
+                огурец
+                луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+        </div>
+
+
+        <div>
+            <div class=" relative group ">
+                <img class="w-[100%] object-cover" src="./image/Без имени-1 2.png" alt="burger">
+                <div
+                    class="absolute inset-0 flex items-center justify-center bg-[#4E9F0D80] bg-opacity-50 text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    Добавить в корзину
+                </div>
+                <button class="absolute bg-[#4E9F0D] text-white bottom-px group-hover:hidden lg:w-[190px] lg:h-[60px] lg:text-[24px] md:w-[160px] md:h-[50px] w-[150px] h-[40px]   " >14 500</button>
+            </div>
+            <p class="text-[#4E9F0D] p-[10px] text-[24px] font-bold"> c говядиной</p>
+            <p class="text-white  w-[344px] h-[75px] p-[5px] ">Свежая хрустящая булочка, листики салата, маринованный
+                огурец
+                луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+        </div>
+
+
+    </div>
+
+
+
+    <menu class="h-[559px] bg-[url('./image/bg.png')] w-[100%] mt-[100px] flex  items-center ">
+        <div class="container m-auto  p-[10px]">
+            <p class="text-center text-[#4E9F0D] uppercase  lg:text-[36px] lg:h-[66px] md:text-[24px] md:h-[50px] text-[18px] h-[40px] ">Уникальная рецептура</p>
+            <hr class="m-auto w-[202px] h-[1px] text-[#4E9F0D]">
+            <p class="  md:mb-[30px] flex items-end text-white lg:h-[120px] lg:w-[1113px] lg:text-[18px] md:h-[110px] md:text-[14px] md:w-auto text-[10px]">Гамбургер является разновидностью
+                сэндвича, состоящей
+                из жареной рубленой котлеты, что подается внутри разрезанной круглой булки. Он обычно дополняется
+                разнообразными приправами, к примеру, листьями салата, кетчупом и майонезом, дольками маринованного
+                огурца, помидора или кабачка, сырым или поджаренным луком.</p>
+            <p class=" flex items-end text-white lg:h-[236px]  lg:text-[18px] md:h-[200px] md:text-[12px] text-[10px]">Будучи наиболее распространенной «быстрой» едой
+                в
+                США, гамбургер имеет далеко не американское происхождение. Ученые приписывают его авторство
+                кочевникам-скифам, которые клали обжаренное мясо между двумя хлебными ломтиками. А в Новый свет «король»
+                фаст-фуда приехал вместе с немецкими иммигрантами: его назвали, кстати, в честь Гамбурга, второго по
+                масштабам города Германии. Официальной датой продажи первого гамбургера в США считается 27 июля 1900-го
+                - в этот день гастроном из Нью-Хейвена предложил жителям города покупать приправленную кетчупом котлету,
+                «зажатую» между двумя кусками булки. Изначально такая еда была прерогативой бедных слоев населения, но
+                вскоре по всей стране стали открываться «фаст-фудовые» заведения, в которых, быстрым было не только
+                питание, но и обслуживание, и смена клиентов. Эти общепиты взяли курс на оперативное детское питание - и
+                для всегда занятого рабочего класса на тот момент они стали лучшим решением проблемы, где и чем быстро
+                накормить детей.</p>
+        </div>
+    </menu>
+    <div class="map">
+        <div class="container m-auto">
+            <p class="flex justify-center items-center lg:text-[36px] md:text-[28px] text-[20px] font-bold uppercase text-[#4E9F0D]  h-[142px] "> Наши филиалы
+            </p>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.712182077261!2d69.21926551113212!3d41.29336810170285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8be730747acd%3A0x7548041987730afa!2zU3RyZWV0IDc3INCd0L7QstC30LA!5e0!3m2!1sru!2s!4v1732442639588!5m2!1sru!2s"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <div class="container m-auto">
+
+            <div class="number flex justify-between items-center h-[100px] m-auto ">
+                <button
+                    class="uppercase w-[160px] h-[30px] text-[#4E9F0D] hover:bg-[#4E9F0D] hover:text-white lg:text-[20px] md:text-[20px] text-[16px] rounded ">Street88</button>
+                <p class=" text-[#4E9F0D] lg:text-[24px] md:text-[20px] text-[16px] pr-[10px] ">+998 90 980 77 23</p>
+            </div>
+            <nav class="h-[200px]">
+                <ul class="flex lg:gap-[90px] md:gap-[70px] gap-[20px] items-center text-white justify-center">
+                    <li class="lg:text-[18px] md:text-[14px] text-[10px]   hover:text-[#4E9F0D]  text-white"><a href="#">Меню</a></li>
+                    <li class="lg:text-[18px] md:text-[14px] text-[10px]   hover:text-[#4E9F0D]  text-white"><a href="#">О нас</a></li>
+                    <li class="lg:text-[18px] md:text-[14px] text-[10px]   hover:text-[#4E9F0D]  text-white"><a href="#">Контакты</a></li>
+                    <li class="lg:text-[18px] md:text-[14px] text-[10px]   hover:text-[#4E9F0D]  text-white"><a href="#">Instagram</a></li>
+                    <li class="lg:text-[18px] md:text-[14px] text-[10px]   hover:text-[#4E9F0D]  text-white"><a href="#">Facebook</a></li>
+                    <li class="lg:text-[18px] md:text-[14px] text-[10px]   hover:text-[#4E9F0D]  text-white"><a href="#">Telegram Bot</a></li>
+                </ul>
+            </nav>
+            <p class="text-white text-[12px] flex items-center justify-center">Сайт разработан в целях обучения © PROWEB 2019</p>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
